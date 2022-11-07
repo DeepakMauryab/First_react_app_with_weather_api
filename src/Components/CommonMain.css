@@ -1,0 +1,56 @@
+
+.homeData{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    min-height: 91vh;
+    background-color: rgba(196, 182, 182, 0.74);
+}
+.intro{
+    padding: 20px;
+}
+.intro h3 span{
+    color: red;
+}
+.intro p{
+    color: rgb(49, 48, 48);
+}
+.intro button{
+    border: 2px solid blue;
+    background-color: transparent;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+}
+.intro button:hover{
+    background-color: rgba(232, 33, 33, 0.717);
+    border-color: black;
+    color: white;
+    transition: all 0.6s;
+}
+
+.imageBox img{
+    /* width: 100%;
+    height: 100%; */
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px black;
+    animation: Move 2s infinite  ;
+    
+}
+@keyframes Move {
+    0%{
+        position: relative;
+        top: 3px;
+    }
+    50%{
+        position: relative;
+        top: -3px;
+
+    }
+    100%{
+        position: relative;
+        top: 3px;
+        
+    }
+}
