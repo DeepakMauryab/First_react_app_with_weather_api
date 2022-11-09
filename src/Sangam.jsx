@@ -6,6 +6,7 @@ import Sevices from "./Components/Sevices";
 import Error from "./Components/Error";
 import About from "./Components/About";
 import Weather from "./Components/Weather";
+import News from "./Components/news/News";
 
 
 const Sangam= ()=>{
@@ -17,6 +18,7 @@ const Sangam= ()=>{
         <Route path="/service" element={ <Sevices/>} />
         <Route path="/Contact" element={ <Contact/>} />
         <Route path="/weather" element={ <Weather/>} />
+        <Route path="/news" element={ <News/>} />
         <Route path="*" element={ <Error/>} />
     </Routes>
     
